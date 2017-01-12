@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Celebrity Dating!</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Celebrity Dating</h1>
+      <p>Give us some information so that we may provide you with a good match.</p>
+      <form id="about-you">
+        <label for="age">Age:</label>
+        <input id="age" type="text">
+        <br>
+        <label for="gender">Gender</label>
+        <select id="gender">
+          <option value="female">Female</option>
+          <option value="male">Male</option>
+        </select>
+        <button type="submit" class="btn">Find me a match!</button>
+      </form>
+
+      <div id="match">
+        <p>According to your feedback, we think <span id="celeb"></span> would be a great match for you.</p>
+        <div id="upton">
+          <h1>Kate Upton</h1>
+          <p>In her spare time, Kate upton likes to go hiking in the mountains.  She loves Thai food.</p>
+          <img src="img/upton.jpg" alt="image of Kate Upton">
+        </div>
+        <div id="oprah">
+          <h1>Oprah Winfrey</h1>
+          <p>Oprah loves to read and watch movies.</p>
+          <img src="img/oprah.jpg" alt="image of Oprah Winfrey">
+        </div>
+        <div id="burr">
+          <h1>Bill Burr</h1>
+          <p>Bill Burr loves to laugh and play with his dog.</p>
+          <img src="img/burr.jpg" alt="image of Bill Burr">
+        </div>
+        <div id="keaton">
+          <h1>Micheal Keaton</h1>
+          <p>Micheal Keaton loves the outdoors and loves to eat Thai food.</p>
+          <img src="img/upton.jpg" alt="image of Kate Upton">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
