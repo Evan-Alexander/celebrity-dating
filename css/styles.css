@@ -1,6 +1,10 @@
-/*#match {
+#upton,
+#keaton,
+#oprah,
+#burr,
+#match {
   display: none;
-}*/
+}
 
 #submit {
   display: block;

@@ -5,9 +5,12 @@ $(document).ready(function() {
     var hobbies = $("select#hobbies").val();
     var food = $("select#food").val());
 
-    if (age === <= 26 && gender === male) {
-      var = match $("").val()
+    if (gender === 'male' && age <= 30) {
+      var = kate $("").val()
     }
+
+    $("#celeb").empty().append();
+    $("")
 
     event.preventDefault();
   });
